@@ -2,7 +2,7 @@
 
 ****
 
-In this project I use Python3, Flask and [Connexion](/https://github.com/zalando/connexion) to build a REST APIs
+In this project from [RealPython.com](https://realpython.com/) I use Python3, Flask and [Connexion](/https://github.com/zalando/connexion) to build a REST APIs
 that can include i/o validation. The project also provides [Swagger](/https://swagger.io) documentation. In addition,
 a web application is created that demonstrates using the API with Javascript. The REST API builds  and serves a simple 
 people data structure.
