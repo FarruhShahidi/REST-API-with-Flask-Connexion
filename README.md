@@ -2,7 +2,7 @@
 
 ****
 
-In this project from [realpython.com](https://realpython.com/) I use Python3, Flask and [Connexion](/https://github.com/zalando/connexion) to build a REST APIs
+In this project  I use Python3, Flask and [Connexion](/https://github.com/zalando/connexion) to build a REST APIs
 that can include i/o validation. The project also provides [Swagger](/https://swagger.io) documentation. In addition,
 a web application is created that demonstrates using the API with Javascript. The REST API builds  and serves a simple 
 people data structure.
@@ -13,6 +13,8 @@ The project consists of several steps.
 
 2. In this part I  added the ability to save changes made through the REST API to a database using [SQLAlchemy](https://www.sqlalchemy.org/) and showed how to serialize  that data for the REST API using [Marshmallow](https://marshmallow.readthedocs.io/en/stable/).
 
+3. The last part takes scalability into consideration. More precisely, I build more tables and relate them to each other using [one-to-many](https://en.wikipedia.org/wiki/One-to-many_(data_model)) relationship. This was achieved by SQLAlchemy](https://www.sqlalchemy.org/) again.
+
 
 
 References:
@@ -20,4 +22,7 @@ References:
 https://realpython.com/flask-connexion-rest-api/
 
 https://swagger.io
+
+
+
 
